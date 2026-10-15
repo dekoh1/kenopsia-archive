@@ -1,0 +1,11 @@
+/* Original Figma Section 04: 1180 × 5275 CSS pixels. */
+body[data-page="section04"]{--content-height:5275px}
+.figma-positioned-word{position:absolute;display:block;white-space:pre;line-height:25px;text-align:left}
+/* Original fixed-control nominal bounds, center strokes, and glyph outlines. */
+body[data-page="section04"] .section-home-link{top:calc(27.350000381469727px * var(--scale));right:calc((100vw - var(--page-width))/2 + 26.64990234375px * var(--scale))}
+
+/* Keep the scroll extent equal to the scaled Figma content height. */
+body[data-page="section04"] .page-shell{overflow:hidden}
+
+/* Keep the Home link at its original 49px design slot. */
+body[data-page="section04"] .section-home-link{top:calc(29px * var(--scale));right:calc((100vw - var(--page-width))/2 + 29px * var(--scale));width:49px;height:49px}

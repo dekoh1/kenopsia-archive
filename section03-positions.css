@@ -1,0 +1,8 @@
+/* SECTION03 native Figma text baselines and unrounded leaf positions. */
+body[data-page="section03"] .page-shell{overflow:hidden}
+body[data-page="section03"] .section-screen svg{max-width:none;font-synthesis:none}
+body[data-page="section03"] .section-screen svg text{white-space:pre}
+body[data-page="section03"] .section03-text-layer{z-index:2}
+body[data-page="section03"] .section03-decorative-text{z-index:0;pointer-events:none}
+body[data-page="section03"] .section03-highlight-layer{z-index:1;mix-blend-mode:multiply;pointer-events:none}
+body[data-page="section03"] .section-home-link{top:calc(29px * var(--scale));right:calc((100vw - var(--page-width))/2 + 29px * var(--scale));width:49px;height:49px}

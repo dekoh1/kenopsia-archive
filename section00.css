@@ -1,0 +1,32 @@
+/* Section 00 uses measured Figma coordinates at 1180 CSS pixels. */
+body[data-page="section00"]{--content-height:8194px}
+.section-screen{transform:scale(var(--scale));transform-origin:top left;font-synthesis:none}
+.section-screen p{margin:0}
+.section-screen img{max-width:none}
+.school-photo-frame{position:absolute;left:106px;top:1128px;width:550px;height:310px;margin:0;--corner-size:7.128px}
+.school-photo-frame>img{display:block;width:100%;height:100%;margin:0;border:0}
+.school-photo-corner{position:absolute;left:0;width:var(--corner-size);height:var(--corner-size);background:#d9d9d9;display:block}
+.school-photo-corner.corner-top{top:0}
+.school-photo-corner.corner-bottom{bottom:0}
+.school-photo-corner.corner-top-right{left:auto;right:0;top:0}
+.school-photo-corner.corner-bottom-right{left:auto;right:0;bottom:0}
+.school-photo-corner.corner-below-left{left:var(--corner-size);top:100%}
+.school-photo-corner.corner-below-right{left:auto;right:0;top:100%}
+.abstract-title-block{position:absolute;left:522px;top:975.6001px;width:136.128px;height:57.3998px}
+.abstract-title-block>p{position:absolute;color:#191919;white-space:nowrap;font-synthesis:none}
+.abstract-label{left:27px;top:0;width:84px;height:29px;font-family:AppleGaramondRegular,serif;font-weight:400;font-style:normal;font-size:25px;line-height:29px;letter-spacing:-.25px}
+.abstract-korean{left:50px;top:27.3998px;width:35px;height:30px;font-family:BookkMyungjo,serif;font-weight:700;font-style:normal;font-size:18px;line-height:30px;letter-spacing:-.36px;text-align:center}
+.abstract-dot{position:absolute;display:block;width:7.128px;height:7.128px;background:#d9d9d9}
+.dot-left-mid{left:0;top:13.3997px}.dot-left-top{left:7px;top:6.3997px}.dot-left-bottom{left:7px;top:20.3997px}
+.dot-right-mid{left:129px;top:13.3997px}.dot-right-top{left:122px;top:6.3997px}.dot-right-bottom{left:122px;top:20.3997px}
+.section-home-link{position:fixed;top:calc(27.35px * var(--scale));right:calc((100vw - var(--page-width))/2 + 26.65px * var(--scale));width:53px;height:53px;transform:scale(var(--scale));transform-origin:top right;line-height:0;z-index:10}
+.section-home-link:focus-visible{outline:3px solid #737373;outline-offset:4px}
+.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+
+/* Original Figma photo-relative registration-square coordinates. */
+.mart-photo-frame{position:absolute;left:150px;top:5916px;width:880px;height:495px;margin:0}
+.mart-photo-square{position:absolute;display:block;background:#d9d9d9;pointer-events:none}
+
+/* Original nine-line Figma composition of the problem-statement paragraph. */
+.problem-reference-line{display:block;height:25px;line-height:25px;white-space:nowrap;text-align:justify;text-align-last:justify}
+.problem-reference-line:last-child{text-align-last:left}

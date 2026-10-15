@@ -1,0 +1,9 @@
+/* SECTION00 native Figma text baselines and unrounded leaf positions. */
+body[data-page="section00"] .page-shell{overflow:hidden}
+body[data-page="section00"] .section-screen svg{max-width:none;font-synthesis:none}
+body[data-page="section00"] .section-screen svg text{white-space:pre}
+body[data-page="section00"] .section-home-link{top:calc(29px * var(--scale));right:calc((100vw - var(--page-width))/2 + 29px * var(--scale));width:49px;height:49px}
+
+/* Text stays above every paragraph highlight; fills retain Figma Multiply. */
+body[data-page="section00"] .section00-highlight-layer{z-index:1;mix-blend-mode:multiply;pointer-events:none}
+body[data-page="section00"] .section00-text-layer{z-index:2}

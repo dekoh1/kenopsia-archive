@@ -1,0 +1,4 @@
+/* Section 01: original 1180 × 6011 Figma layout. */
+body[data-page="section01"]{--content-height:6011px}
+/* Preserve the original Figma line breaks beneath the two natural-decrease highlights. */
+.dead-cross-reference-line{display:block;height:25px;line-height:25px;white-space:nowrap;text-align:justify;text-align-last:justify}

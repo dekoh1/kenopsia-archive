@@ -1,0 +1,5 @@
+/* Original Figma Section 02: 1180 × 6828 CSS pixels. */
+body[data-page="section02"]{--content-height:6828px}
+.figma-positioned-word{position:absolute;display:block;white-space:pre;line-height:25px;text-align:left}
+/* Original fixed-control nominal bounds, center strokes, and glyph outlines. */
+body[data-page="section02"] .section-home-link{top:calc(27.350000381469727px * var(--scale));right:calc((100vw - var(--page-width))/2 + 26.64990234375px * var(--scale))}
