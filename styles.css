@@ -15,13 +15,6 @@ button{font:inherit;-webkit-tap-highlight-color:transparent}
 .fade-out{position:absolute;left:-55px;top:2261px;width:1291px;height:560px;background:linear-gradient(to bottom,#d1d1d1,#fff)}
 h1{position:absolute;margin:0;left:45px;top:4.065px;width:1090px;height:177px;font-family:AppleGaramondLight,serif;font-style:italic;font-weight:400;font-size:155px;line-height:177px;letter-spacing:-6.2px;color:#b2b2b2;white-space:nowrap}
 h1 .zero{letter-spacing:-1.55px}h1 .four{letter-spacing:-3.1px}
-.small-logo{position:absolute;left:440px;top:670px;width:282px;height:143px;overflow:hidden;opacity:.3}
-.small-logo img{position:absolute;left:-5.79%;top:-11.89%;width:111.58%;height:123.78%;max-width:none}
-.logo-edge{position:absolute;background:linear-gradient(to bottom,#fcfcfc,#fff)}
-.edge-top{left:440px;top:670px;width:282px;height:19px}
-.edge-bottom{left:440px;top:793px;width:282px;height:20px;transform:rotate(180deg)}
-.edge-left{left:377px;top:733px;width:143px;height:17px;transform:rotate(-90deg)}
-.edge-right{left:641px;top:732px;width:143px;height:19px;transform:rotate(90deg)}
 .dot{position:absolute;width:7.128px;height:7.128px;left:585.999px;background:#c1c1c1}
 .dot-1{top:889px}.dot-2{top:902px}.dot-3{top:1096px}.dot-4{top:1449px;background:#cdcdcd}.dot-5{top:1733px;background:#cdcdcd}
 .archive-logo{position:absolute;left:103px;top:1808.299px;width:973px;height:396px;overflow:hidden}
